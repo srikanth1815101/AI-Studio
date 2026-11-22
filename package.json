@@ -1,0 +1,26 @@
+{
+  "name": "telugu-states-instagram-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable 9:16 Remotion motion-graphics template for Telugu States follower-house videos.",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "render": "node scripts/validate-data.mjs video-data.json --require-footage && remotion render src/index.jsx CommunityShort out/community-short.mp4 --props=video-data.json",
+    "still": "node scripts/validate-data.mjs video-data.json --require-footage && remotion still src/index.jsx CommunityShort out/preview.png --frame=450 --props=video-data.json",
+    "lint:data": "node scripts/validate-data.mjs video-data.json",
+    "atlas:check": "bash scripts/check-telugustates.sh",
+    "atlas:update": "bash scripts/update-telugustates.sh",
+    "atlas:serve": "bash scripts/run-atlas.sh",
+    "atlas:capture": "node scripts/capture-atlas.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.410",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.410"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.18.1"
+  }
+}

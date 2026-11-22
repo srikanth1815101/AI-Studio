@@ -1,0 +1,31 @@
+{
+  "projectTitle": "Andhra Pradesh × Telangana · one shared 3D world",
+  "district": "Palnadu",
+  "districtTelugu": "పల్నాడు",
+  "state": "Andhra Pradesh + Telangana",
+  "totalFollowers": 1,
+  "newHomes": 0,
+  "openingLine": "Andhra Pradesh + Telangana. One world we can build together.",
+  "closingLine": "Comment any name + district. Get a virtual home + acre.",
+  "accentColor": "#ffc542",
+  "mapFootage": "",
+  "atlasQuality": "high",
+  "atlasSettings": {
+    "season": "summer",
+    "weather": "Clear",
+    "time": "golden",
+    "third": true,
+    "saver": false
+  },
+  "atlasShots": [
+    {"action": "overview", "durationSeconds": 4, "settleSeconds": 1, "title": "Andhra Pradesh × Telangana · one Telugu world", "locationLabel": "ANDHRA PRADESH × TELANGANA", "settings": {"season": "summer", "weather": "Clear", "time": "golden"}},
+    {"action": "district", "district": "Palnadu", "durationSeconds": 4, "settleSeconds": 2, "title": "Follow + comment your name and district", "locationLabel": "పల్నాడు · Palnadu", "settings": {"season": "summer", "weather": "Clear", "time": "day"}},
+    {"action": "place", "id": "cliffs", "view": "far", "durationSeconds": 4, "settleSeconds": 2, "title": "Climb mountains. Find your favorite view.", "locationLabel": "Y.S.R. Kadapa · Andhra Pradesh", "settings": {"season": "winter", "weather": "Clear", "time": "golden"}},
+    {"action": "resident", "handle": "palnadu_demo01", "kind": "gate", "enterHouse": true, "durationSeconds": 5, "settleSeconds": 2, "title": "Step inside your virtual home in the Atlas.", "locationLabel": "Palnadu · Andhra Pradesh", "settings": {"season": "summer", "weather": "Clear", "time": "day"}},
+    {"action": "acre", "handle": "palnadu_demo01", "durationSeconds": 5, "settleSeconds": 2, "title": "Your virtual home + one-acre plot. Your ID stays private.", "locationLabel": "Palnadu · Andhra Pradesh", "settings": {"season": "retreat", "weather": "Clear", "time": "golden"}},
+    {"action": "place", "id": "forest", "view": "far", "durationSeconds": 4, "settleSeconds": 2, "title": "Now explore Telangana: forests and trails.", "locationLabel": "Jagitial · Telangana", "settings": {"season": "summer", "weather": "Clear", "time": "day"}},
+    {"action": "place", "id": "bend", "view": "bank", "durationSeconds": 5, "settleSeconds": 2, "title": "Explore in 3D · swim rivers · discover every inch", "locationLabel": "Sri Sathya Sai · Andhra Pradesh", "settings": {"season": "monsoon", "weather": "Clear", "time": "day"}},
+    {"action": "place", "id": "coast", "view": "mid", "durationSeconds": 4, "settleSeconds": 2, "title": "Experience seasons. Watch day turn to night.", "locationLabel": "Sri Potti Sriramulu Nellore · Andhra Pradesh", "settings": {"season": "summer", "weather": "Clear", "time": "dusk"}},
+    {"action": "overview", "durationSeconds": 5, "settleSeconds": 1, "title": "I'm Srikanth, the only resident so far. Build with me.", "locationLabel": "ANDHRA PRADESH × TELANGANA", "settings": {"season": "winter", "weather": "Clear", "time": "golden"}}
+  ]
+}
