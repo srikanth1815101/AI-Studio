@@ -1,0 +1,1 @@
+`npm run atlas:capture` writes the authentic 1080×1920 Atlas canvas capture here as `atlas-camera.webm` (or to the `mapFootage` path in `video-data.json`). Captured media is ignored by Git; it is a local render input and is not committed. The composition intentionally shows a capture-required slate until this real Atlas footage exists.
